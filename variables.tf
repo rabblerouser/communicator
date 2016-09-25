@@ -6,3 +6,5 @@ variable "aws_region" {
 variable "aws_mail_zone_id" {}
 variable "mail_domain_name" {}
 variable "aws_ses_verification_token" {}
+variable "email_list_s3_bucket_name" {}
+variable "aws_account_id" {}
