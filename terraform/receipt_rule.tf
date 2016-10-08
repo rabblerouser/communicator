@@ -35,9 +35,9 @@ resource "aws_ses_receipt_rule" "bounce" {
   scan_enabled  = true
 
   bounce_action {
-    message = "The user does not exist"
-    sender  = "mailerdaemon@${var.mail_domain_name}"
+    message         = "The user does not exist"
+    sender          = "mailerdaemon@${var.mail_domain_name}"
     smtp_reply_code = "550"
-    position = "0"
+    position        = "0"
   }
 }
