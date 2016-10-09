@@ -14,5 +14,5 @@ Creates a mailing list for Rabble Rouser groups.
 
 * Build
 
-        terraform apply
+        ./deploy.sh
 
