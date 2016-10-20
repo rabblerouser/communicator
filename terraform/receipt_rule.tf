@@ -22,7 +22,6 @@ resource "aws_ses_receipt_rule" "store" {
 
   s3_action {
     bucket_name = "${var.email_list_s3_bucket_name}"
-    kms_key_arn = "${aws_kms_key.email_lists.arn}"
     position    = "1"
   }
 }
