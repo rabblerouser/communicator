@@ -2,17 +2,22 @@ Creates a mailing list for Rabble Rouser groups.
 
 ## Setup
 
-* Get zone id (from a list of hosted zones):
+## Prerequisites
 
-        aws route53 list-hosted-zones
+### Nodejs and Packages
 
-* Verify domain:
+- Nodejs 4.3 (Mainly because AWS lambda uses version 4.3)
 
-        aws ses verify-domain-identity --domain <domain.com>
+### AWS
+
+In order to deploy to AWS, make sure the file `credentials` exists under `~/.aws/` and that you have the permissions necessary to the account.
 
 ## Make it go
 
 * Build
 
-        ./deploy.sh
+        STAGE=dev ./go-deploy.sh
 
+_Add environment variable `AWS_PROFILE=<your-aws-profile>` if you have multiple accounts._
+
+        AWS_PROFILE=<your-aws-profile> STAGE=dev ./go-deploy.sh
