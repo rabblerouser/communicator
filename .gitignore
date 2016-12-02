@@ -2,3 +2,5 @@
 *.tfstate.backup
 terraform.tfvars
 send-email-function.zip
+.serverless/
+node_modules/

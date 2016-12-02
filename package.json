@@ -1,0 +1,15 @@
+{
+  "name": "communicator",
+  "version": "1.0.0",
+  "description": "API to manage emails, this project is part of RabbleRouser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabblerouser/communicator.git"
+  },
+  "author": "The RabbleRouser Crowd",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/rabblerouser/communicator/issues"
+  },
+  "homepage": "https://github.com/rabblerouser/communicator#readme"
+}
