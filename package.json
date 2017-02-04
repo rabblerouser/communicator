@@ -7,7 +7,7 @@
     "url": "git+https://github.com/rabblerouser/communicator.git"
   },
   "author": "The RabbleRouser Crowd",
-  "license": "GPL-3.0",
+  "license": "AGPL-3.0",
   "bugs": {
     "url": "https://github.com/rabblerouser/communicator/issues"
   },
