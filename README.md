@@ -1,3 +1,5 @@
+**_DEPRECATED_**: see https://github.com/rabblerouser/group-mailer
+
 Creates a mailing list for Rabble Rouser groups.
 
 ## Setup
